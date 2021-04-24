@@ -1,4 +1,6 @@
-docker network create pfa
+To run this project, run the following commands on terminal:
+
+```docker network create pfa````
 
 docker run --rm -d --name pfadocker01mysql --network=pfa -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_DATABASE=pfa mysql:latest
 
